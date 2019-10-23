@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Muli:400,700&display=swap');
+
+body {
+  background-color: #F9F7F7;
+  font-family: 'Lora', serif;
+  color: #474A4E;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1, h2 {
+  font-family: 'Muli', sans-serif;
+  text-align: center
+}
+
+h1 {
+  font-size: 44px;
+  letter-spacing: 1px;
+  color: #FF7D4F;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+a {
+  color: #99E1D9;
+  font-size: 32px;
+  padding: 8px;
+}
+
+a:hover {
+  color: #B1B0B3;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #99E1D9;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #B1B0B3;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+#role {
+  margin-top: -8px;
+  padding: 0px 20px;
+  color: #B1B0B3;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  h1 {
+    display: inline;
+  }
+  #role {
+    padding-top: 12px;
+  }
+}
